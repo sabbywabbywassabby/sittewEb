@@ -1,0 +1,52 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('menu.png'); /* Ajout de l'image de fond */
+    background-size: cover; /* Pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    display: flex; /* Utilisation de flexbox pour la disposition */
+    flex-direction: column; /* Contenu en colonne */
+    min-height: 100vh; /* Hauteur minimale de la fenêtre visible */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.7); /* Transparence à 0.7 */
+    color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(102, 102, 102, 0.7); /* Transparence à 0.7 */
+    padding: 0px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Pour que le contenu principal prenne tout l'espace restant */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.5); /* Couleur semi-transparente */
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
